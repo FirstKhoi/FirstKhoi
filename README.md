@@ -12,8 +12,8 @@
 
 <img src="https://komarev.com/ghpvc/?username=FirstKhoi&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="views" />
 <a href="https://github.com/FirstKhoi?tab=followers"><img src="https://img.shields.io/github/followers/FirstKhoi?style=for-the-badge&color=22D3EE&labelColor=0D1117&logo=github" alt="followers" /></a>
-<a href="REPLACE_WITH_YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="linkedin" /></a>
-<a href="mailto:REPLACE_WITH_YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A78BFA" alt="email" /></a>
+<a href="https://www.linkedin.com/in/luong-nhat-khoi/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="linkedin" /></a>
+<a href="mailto:luongnhatkhoi2803@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A78BFA" alt="email" /></a>
 
 </div>
 
@@ -29,7 +29,7 @@ from dataclasses import dataclass, field
 class FirstKhoi:
     """Baselines before benchmarks. Ablations before claims."""
 
-    name:   str = "REPLACE_WITH_YOUR_NAME"
+    name:   str = "Luong Nhat Khoi"
     handle: str = "FirstKhoi"
     origin: str = "Vietnam 🇻🇳"
     status: str = "CS / Data Science · undergraduate"
