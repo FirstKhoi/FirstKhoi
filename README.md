@@ -29,7 +29,7 @@ from dataclasses import dataclass, field
 class FirstKhoi:
     """Baselines before benchmarks. Ablations before claims."""
 
-    name:   str = "Luong Nhat Khoi"
+    name:   str = "REPLACE_WITH_YOUR_NAME"
     handle: str = "FirstKhoi"
     origin: str = "Vietnam 🇻🇳"
     status: str = "CS / Data Science · undergraduate"
@@ -249,20 +249,7 @@ $ python -m notworle.train --track research-portfolio --epochs inf
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=FirstKhoi&show_icons=true&hide_border=true&bg_color=0D1117&title_color=7C3AED&icon_color=22D3EE&text_color=C9D1D9&include_all_commits=true&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FirstKhoi&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=C9D1D9" />
-
-<br/>
-
 <img width="98%" src="https://streak-stats.demolab.com?user=FirstKhoi&hide_border=true&background=0D1117&stroke=1F2A38&ring=7C3AED&fire=22D3EE&currStreakLabel=7C3AED&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=7D8590" />
-
-<br/><br/>
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=FirstKhoi&bg_color=0D1117&color=C9D1D9&title_color=7C3AED&line=7C3AED&point=22D3EE&area=true&area_color=7C3AED&hide_border=true" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=FirstKhoi&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
 
 </div>
 
