@@ -29,7 +29,7 @@ from dataclasses import dataclass, field
 class FirstKhoi:
     """Baselines before benchmarks. Ablations before claims."""
 
-    name:   str = "REPLACE_WITH_YOUR_NAME"
+    name:   str = "Luong Nhat Khoi"
     handle: str = "FirstKhoi"
     origin: str = "Vietnam 🇻🇳"
     status: str = "CS / Data Science · undergraduate"
@@ -110,37 +110,31 @@ flowchart LR
 
 <table align="center">
 <tr>
-<td valign="top" width="33%">
+<td valign="top" width="33%" align="center">
 
 **Vision**
-```text
-OpenCV · YOLOv8
-MOG2 · Optical Flow
-Centroid / SORT
-Kalman Filter
-```
+
+`OpenCV` `YOLOv8` `MOG2`
+`Optical Flow` `Centroid`
+`SORT` `Kalman Filter`
 
 </td>
-<td valign="top" width="33%">
+<td valign="top" width="33%" align="center">
 
 **Learning**
-```text
-PyTorch · CUDA
-CNN · LeNet / ResNet
-XGBoost · LightGBM
-TreeSHAP · AdaBoost
-```
+
+`PyTorch` `CUDA` `CNN`
+`LeNet` `ResNet` `XGBoost`
+`LightGBM` `TreeSHAP` `AdaBoost`
 
 </td>
-<td valign="top" width="33%">
+<td valign="top" width="33%" align="center">
 
 **Spatial**
-```text
-PostGIS · pgRouting
-GeoJSON · QGIS
-EPSG:4326 / 32648
-Graph routing
-```
+
+`PostGIS` `pgRouting` `QGIS`
+`GeoJSON` `Graph routing`
+`EPSG:4326` `EPSG:32648`
 
 </td>
 </tr>
