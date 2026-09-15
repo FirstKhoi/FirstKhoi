@@ -239,11 +239,37 @@ $ python -m notworle.train --track research-portfolio --epochs inf
 
 ---
 
+## `📡 live_signal`
+
+> Not narrative — pulled straight from the GitHub API on a schedule. If this block is stale, the pipeline broke, not the story.
+
+<!-- LIVE_SIGNAL:START -->
+```console
+$ python -m notworle.stats --source github --live
+
+  metric                        value       updated (UTC)
+  ─────────────────────────────  ──────────  ────────────────────
+  current_streak_days             3           2026-09-15 16:37
+  contributions_this_week         17
+  repos_touched_7d                4
+  last_active_at                  2026-09-15
+
+  source: github graphql api · auto-regenerated every 12h
+```
+<!-- LIVE_SIGNAL:END -->
+
+---
+
 ## `📊 stats`
 
 <div align="center">
 
-<img width="98%" src="https://streak-stats.demolab.com?user=FirstKhoi&hide_border=true&background=0D1117&stroke=1F2A38&ring=7C3AED&fire=22D3EE&currStreakLabel=7C3AED&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=7D8590" />
+<img alt="streak stats" width="98%" src="https://streak-stats.demolab.com?user=FirstKhoi&hide_border=true&background=0D1117&stroke=1F2A38&ring=7C3AED&fire=22D3EE&currStreakLabel=7C3AED&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=7D8590" />
+
+<br/>
+
+<img alt="top languages" height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FirstKhoi&layout=compact&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=C9D1D9&icon_color=22D3EE&border_color=1F2A38&langs_count=8" />
+<img alt="trophies" height="180" src="https://github-profile-trophy.vercel.app/?username=FirstKhoi&theme=onedark&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8" />
 
 </div>
 
@@ -258,6 +284,16 @@ $ python -m notworle.train --track research-portfolio --epochs inf
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FirstKhoi/FirstKhoi/output/github-snake.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/FirstKhoi/FirstKhoi/output/github-snake.svg" />
 </picture>
+
+</div>
+
+---
+
+## `🧊 isocalendar_3d`
+
+<div align="center">
+
+<img alt="3D isocalendar" src="https://raw.githubusercontent.com/FirstKhoi/FirstKhoi/metrics/metrics.isocalendar.svg" width="80%" />
 
 </div>
 
