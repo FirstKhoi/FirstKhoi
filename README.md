@@ -249,10 +249,10 @@ $ python -m notworle.stats --source github --live
 
   metric                        value       updated (UTC)
   ─────────────────────────────  ──────────  ────────────────────
-  current_streak_days             0           2026-10-29 05:00
-  contributions_this_week         20
+  current_streak_days             47          2026-10-29 18:14
+  contributions_this_week         21
   repos_touched_7d                2
-  last_active_at                  2026-10-28
+  last_active_at                  2026-10-29
 
   source: github graphql api · auto-regenerated every 12h
 ```
