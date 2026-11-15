@@ -249,8 +249,8 @@ $ python -m notworle.stats --source github --live
 
   metric                        value       updated (UTC)
   ─────────────────────────────  ──────────  ────────────────────
-  current_streak_days             63          2026-11-14 17:47
-  contributions_this_week         23
+  current_streak_days             0           2026-11-15 05:37
+  contributions_this_week         21
   repos_touched_7d                3
   last_active_at                  2026-11-14
 
