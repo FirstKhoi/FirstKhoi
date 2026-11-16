@@ -55,7 +55,7 @@ class FirstKhoi:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,numpy,postgres,docker,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,postgres,docker,git,github,vscode&theme=dark" />
 
 **Vision** · `YOLOv8` `MOG2` `Optical Flow`<br/>
 **Learning** · `CNN` `ResNet` `XGBoost` `LightGBM` `TreeSHAP`
@@ -169,11 +169,6 @@ $ python -m notworle.stats --source github --live
 <div align="center">
 
 <img alt="streak stats" width="98%" src="https://streak-stats.demolab.com?user=FirstKhoi&hide_border=true&background=0D1117&stroke=1F2A38&ring=7C3AED&fire=22D3EE&currStreakLabel=7C3AED&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=7D8590" />
-
-<br/>
-
-<img alt="top languages" height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FirstKhoi&layout=compact&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=C9D1D9&icon_color=22D3EE&border_color=1F2A38&langs_count=8" />
-<img alt="trophies" height="180" src="https://github-profile-trophy.vercel.app/?username=FirstKhoi&theme=onedark&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8" />
 
 </div>
 

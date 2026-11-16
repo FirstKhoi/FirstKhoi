@@ -162,7 +162,7 @@ a(f'<rect x="{TX}" y="185.5" width="150" height="5" fill="url(#sweep)">'
 a(f'<text x="{TX}" y="214" font-family="{mono}" font-size="14" fill="#A78BFA" letter-spacing=".5">'
   f'Computer Vision &#215; Deep Learning &#215; Research</text>')
 
-chips = ["PyTorch", "OpenCV", "CUDA", "PostGIS"]
+chips = ["PyTorch", "OpenCV"]
 cx = TX
 for ch in chips:
     w = 9 + len(ch) * 7.4
@@ -175,6 +175,6 @@ for ch in chips:
 a('</svg>')
 
 svg = "\n".join(p)
-with open("/home/claude/profile/assets/conv-banner.svg", "w") as f:
+with open("assets/conv-banner.svg", "w") as f:
     f.write(svg)
 print("written", len(svg), "bytes")
