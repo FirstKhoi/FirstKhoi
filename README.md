@@ -70,7 +70,7 @@ class FirstKhoi:
 <tr>
 <td width="33%" valign="top">
 
-### ⚽ Football Analysis
+### [⚽ Football Analysis](https://github.com/FirstKhoi/Football_Analysis)
 `YOLO26` `ByteTrack` `Optical Flow`
 
 Football video analysis: detects and tracks players, referees and the ball, splits teams by jersey colour, and measures each player's position in meters, speed and distance run.
