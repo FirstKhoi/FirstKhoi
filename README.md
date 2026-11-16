@@ -57,39 +57,10 @@ class FirstKhoi:
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,numpy,postgres,docker,git,github,vscode&theme=dark" />
 
+**Vision** · `YOLOv8` `MOG2` `Optical Flow`<br/>
+**Learning** · `CNN` `ResNet` `XGBoost` `LightGBM` `TreeSHAP`
+
 </div>
-
-<table align="center">
-<tr>
-<td valign="top" width="33%" align="center">
-
-**Vision**
-
-`OpenCV` `YOLOv8` `MOG2`
-`Optical Flow` `Centroid`
-`SORT` `Kalman Filter`
-
-</td>
-<td valign="top" width="33%" align="center">
-
-**Learning**
-
-`PyTorch` `CUDA` `CNN`
-`LeNet` `ResNet` `XGBoost`
-`LightGBM` `TreeSHAP` `AdaBoost`
-
-</td>
-<td valign="top" width="33%" align="center">
-
-**Spatial**
-
-`QGIS` `GeoJSON`
-`Graph routing`
-`EPSG:4326` `EPSG:32648`
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -100,7 +71,7 @@ class FirstKhoi:
 <td width="50%" valign="top">
 
 ### 🎥 Motion Detection → MOT
-`OpenCV` `YOLOv8` `Kalman`
+`OpenCV` `YOLOv8`
 
 Classical CV pipeline with a **validated design decision**: MOG2 chosen over static background subtraction after empirical comparison — *2 correct tracks vs. 4 ghost tracks*.
 
