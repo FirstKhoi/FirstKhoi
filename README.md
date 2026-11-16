@@ -51,60 +51,11 @@ class FirstKhoi:
 
 ---
 
-## `🧭 research_map`
-
-> How the pieces connect. Every branch is built to converge on one research question.
-
-```mermaid
-flowchart LR
-    subgraph F["🧱 Foundations"]
-        direction TB
-        F1["Classical CV<br/><i>MOG2 · centroid tracking</i>"]
-        F2["CNN internals<br/><i>kernels · pooling · LeNet-5</i>"]
-        F3["Ensembles &amp; Boosting<br/><i>RF · AdaBoost · XGBoost</i>"]
-    end
-
-    subgraph A["🔬 Applied Systems"]
-        direction TB
-        A1["Multi-Object Tracking<br/><i>SORT · ByteTrack · Kalman</i>"]
-        A2["Indoor Localization<br/><i>vision-based positioning</i>"]
-        A3["GIS Indoor Routing<br/><i>PostGIS · pgRouting</i>"]
-    end
-
-    subgraph R["🎯 Research Question"]
-        direction TB
-        RQ["<b>Can vision-based localization<br/>replace beacon infrastructure<br/>for indoor transit navigation?</b>"]
-    end
-
-    F1 --> A1
-    F2 --> A1
-    F2 --> A2
-    F3 -.->|"rigor transfer:<br/>baselines &amp; ablations"| A2
-    A1 --> RQ
-    A2 --> RQ
-    A3 --> RQ
-
-    classDef found fill:#0D1117,stroke:#22D3EE,stroke-width:2px,color:#E6EDF3
-    classDef appl  fill:#0D1117,stroke:#7C3AED,stroke-width:2px,color:#E6EDF3
-    classDef res   fill:#1A1030,stroke:#A78BFA,stroke-width:3px,color:#E6EDF3
-    class F1,F2,F3 found
-    class A1,A2,A3 appl
-    class RQ res
-```
-
----
-
 ## `🛠 tech_stack`
 
 <div align="center">
 
-**Core**
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,numpy&theme=dark" />
-
-**Data · Infra · Tooling**
-
-<img src="https://skillicons.dev/icons?i=postgres,docker,git,github,linux,bash,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,numpy,postgres,docker,git,github,vscode&theme=dark" />
 
 </div>
 
@@ -132,8 +83,8 @@ flowchart LR
 
 **Spatial**
 
-`PostGIS` `pgRouting` `QGIS`
-`GeoJSON` `Graph routing`
+`QGIS` `GeoJSON`
+`Graph routing`
 `EPSG:4326` `EPSG:32648`
 
 </td>
@@ -219,24 +170,6 @@ $ python -m notworle.train --track research-portfolio --epochs inf
   ⚠  watchlist: frame-level data leakage in video splits
 ```
 
-<details>
-<summary><b>📚 paper_trail</b> — what I'm reading and why <i>(click to expand)</i></summary>
-
-<br/>
-
-| Paper | Why it's on the list |
-|---|---|
-| **Simple Online and Realtime Tracking** (SORT) | Minimal, honest baseline — the thing every MOT claim should be measured against |
-| **ByteTrack** | Shows how much performance lives in low-confidence detections |
-| **Gradient Boosting: A Statistical View** (Friedman) | Boosting as functional gradient descent — the idea that makes XGBoost obvious |
-| **XGBoost: A Scalable Tree Boosting System** | Second-order approximation + regularization; the bridge to optimization theory |
-| **Batch Normalization** / **Deep Residual Learning** | Why depth became trainable — required context for any CNN ablation |
-| **PoseNet / camera relocalization line of work** | Direct ancestry for vision-based indoor localization |
-
-**Reading protocol:** *claim → experiment → does the ablation actually support the claim?*
-
-</details>
-
 ---
 
 ## `📡 live_signal`
@@ -300,11 +233,6 @@ $ python -m notworle.stats --source github --live
 ---
 
 <div align="center">
-
-```text
-                    >>> FirstKhoi().why()
-                    'A result I cannot reproduce is a result I do not have.'
-```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:7C3AED&height=110&section=footer" width="100%" />
 
