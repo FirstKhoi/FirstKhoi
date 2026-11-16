@@ -68,52 +68,28 @@ class FirstKhoi:
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🎥 Motion Detection → MOT
-`OpenCV` `YOLOv8`
+### ⚽ Football Analysis
+`YOLO26` `ByteTrack` `Optical Flow`
 
-Classical CV pipeline with a **validated design decision**: MOG2 chosen over static background subtraction after empirical comparison — *2 correct tracks vs. 4 ghost tracks*.
-
-Ships with CLI config, centroid tracker, and a YOLOv8 benchmarking harness.
-
-`▸ next:` full MOT stack + MOTA/IDF1 eval
+Football video analysis: detects and tracks players, referees and the ball, splits teams by jersey colour, and measures each player's position in meters, speed and distance run.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🗺 Indoor Navigation (Thesis)
-`PostGIS` `pgRouting` `GeoJSON`
+### [🏛 All CNN U Need](https://github.com/FirstKhoi/all_cnn_u_need)
+`PyTorch` `CIFAR-10`
 
-GIS-based indoor routing for a metro station — pilot site **Ga Bến Thành**. Floor-plan graph extraction, multi-level pathfinding, and turn-by-turn guidance.
-
-4-person group thesis, spatial DB stack under evaluation.
-
-`▸ next:` CAD ingestion + routing benchmarks
+Classic CNNs re-implemented in chronological order, LeNet to ConvNeXt, each trained on CIFAR-10 to see what it improves over the last.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🧠 CNN From First Principles
-`PyTorch` `NumPy`
+### [✍️ Handwritten Digit Recognition](https://github.com/FirstKhoi/handwritten-digit-recognition)
+`PyTorch` `ONNX` `Flask`
 
-Not a tutorial rerun — kernels, receptive fields and pooling derived by hand, then implemented. LeNet-5 reproduced, debugged, and ablated.
-
-`▸ next:` CIFAR-10 ablation study (aug × depth × norm)
-
-</td>
-<td width="50%" valign="top">
-
-### 🌲 XGBoost From Scratch
-`NumPy` `scikit-learn`
-
-Second-order boosting implemented from the math up — Newton step, Tikhonov-regularized leaf weights, exact split finding.
-
-Benchmarked against a real tabular pipeline.
-
-`▸ next:` parity check vs. `xgboost` reference
+LeNet-5 on MNIST: a 6-architecture ablation, an out-of-distribution reject class, digit-sequence reading, and a web app running in the browser.
 
 </td>
 </tr>
